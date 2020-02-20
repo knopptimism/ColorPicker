@@ -13,6 +13,8 @@
 		F320000C23FEF46200E9F3BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F320000A23FEF46200E9F3BB /* Main.storyboard */; };
 		F320000E23FEF46400E9F3BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F320000D23FEF46400E9F3BB /* Assets.xcassets */; };
 		F320001123FEF46400E9F3BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F320000F23FEF46400E9F3BB /* LaunchScreen.storyboard */; };
+		F320001923FEF7A200E9F3BB /* ColorPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F320001823FEF7A200E9F3BB /* ColorPicker.swift */; };
+		F320001B23FEF7E200E9F3BB /* ColorWheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F320001A23FEF7E200E9F3BB /* ColorWheel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		F320000D23FEF46400E9F3BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F320001023FEF46400E9F3BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F320001223FEF46400E9F3BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F320001823FEF7A200E9F3BB /* ColorPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPicker.swift; sourceTree = "<group>"; };
+		F320001A23FEF7E200E9F3BB /* ColorWheel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorWheel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,8 @@
 				F320000423FEF46200E9F3BB /* AppDelegate.swift */,
 				F320000623FEF46200E9F3BB /* SceneDelegate.swift */,
 				F320000823FEF46200E9F3BB /* ViewController.swift */,
+				F320001823FEF7A200E9F3BB /* ColorPicker.swift */,
+				F320001A23FEF7E200E9F3BB /* ColorWheel.swift */,
 				F320000A23FEF46200E9F3BB /* Main.storyboard */,
 				F320000D23FEF46400E9F3BB /* Assets.xcassets */,
 				F320000F23FEF46400E9F3BB /* LaunchScreen.storyboard */,
@@ -139,8 +145,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F320000923FEF46200E9F3BB /* ViewController.swift in Sources */,
+				F320001923FEF7A200E9F3BB /* ColorPicker.swift in Sources */,
 				F320000523FEF46200E9F3BB /* AppDelegate.swift in Sources */,
 				F320000723FEF46200E9F3BB /* SceneDelegate.swift in Sources */,
+				F320001B23FEF7E200E9F3BB /* ColorWheel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
